@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+        <title>Игровой клуб виртуальной реальности VRVOID</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+    </head>
+    <body>
+
+<div class="md-modal md-effect-1" id="modal-1">
+            <div class="md-content">
+                <h3>Записаться на игру</h3>
+                <div class="form">
+  
+                    <form action="">
+                        <h5 class="text-center white g">Оставьте заявку и мы перезвоним вам в течении 14 минут</h5>
+                        <input type="text" placeholder="Имя">
+                        <input type="text" placeholder="+7(___)___-__-__">
+                        <br><br>
+                        <button class="btn btn-primary but2" target="_blank">Записаться</button>
+
+                    </form>
+                                        </div>
+                    <button class="md-close"><i class='icon icon-cross'></i></button>
+
+                </div>
+            </div>
+
+
+
+        <div class='section-1'>
+            <header class="navbar fixed hide-xs hide-md">
+                <section class="navbar-section">
+                    <a href="#about" class="btn btn-link">О нас</a>
+                    <a href="#reviews" class="btn btn-link">Отзывы</a>
+                    <a href="#contact" class="btn btn-link">Контакты</a>
+                </section>
+                <section class="navbar-center">
+                    <img src="img/logo.png" width="200px" alt="">
+                </section>
+                <section class="navbar-section">
+                    <a href="#games" class="btn btn-link">Игры</a>
+                    <a href="#price" class="btn btn-link">Цены</a>
+                    <a class="md-trigger btn btn-link button" data-modal="modal-1">Записаться на игру</a>
+                </section>
+            </header>
+
+            <header class="navbar fixed show-xs show-md">
+                <section class="navbar-section float-left">
+                    <img src="img/logo.png" width="100px" alt="">
+                </section>
+
+                <section class="navbar-section float-right">
+                    <div class='showmenu white'><i class='icon icon-menu'></i></div>
+                </section>
+                
+                <section class="showed" style="display: none;">
+                    <a href="#about" class="btn btn-link">О нас</a>
+                    <a href="#reviews" class="btn btn-link">Отзывы</a>
+                    <a href="#contact" class="btn btn-link">Контакты</a>
+                    <a href="#games" class="btn btn-link">Игры</a>
+                    <a href="#price" class="btn btn-link">Цены</a>
+                    <a class="md-trigger btn btn-link button" data-modal="modal-1">Записаться на игру</a>
+                </section>
+            </header>
+            <div class='overlay-vt'>
+                <div class='vertical-align'>
+                    <div class='main text-center'>
+                        <h1 class='sbold'>Клуб виртуальной реальности VOID</h1>
+                        <div class='small'>ТВОЁ ВИРТУАЛЬНО-РЕАЛЬНОЕ ПРИКЛЮЧЕНИЕ</div>
+                        <br>
+                        <div class="input-group input-inline">
+                            <a href="#games"><button class="btn btn-primary input-group-btn">Игры</button></a>
+                            <a class="md-trigger" data-modal="modal-1"><button class="btn btn-primary input-group-btn md-trigger" data-modal="modal-1">Записаться на игру</button></a>
+                        </div>
+                        <div class="headline">
+                            <div class="container">
+                                
+                                
+                                <div class="column col-2 col-xs-12 float-left preim text-center">
+                                    <img src="http://vr-void.ru/wp-content/uploads/2017/10/turnir.png">
+                                    <div class="g text-upeercase text-center">Турниры - побеждай и зарабатывай призы!</div>
+                                </div>
+                                
+                                <div class="column col-2 col-xs-12 float-left preim text-center">
+                                    <img src="http://vr-void.ru/wp-content/uploads/2017/10/time.png">
+                                    <div class="g text-upeercase text-center">Работаем круглосуточно - у нас весело даже ночью!</div>
+                                </div>
+                                
+                                <div class="column col-2 col-xs-12 float-left preim text-center">
+                                    <img src="http://vr-void.ru/wp-content/uploads/2017/10/world.png">
+                                    <div class="g text-upeercase text-center">Игры по сети - побеждай врагов вместе с друзьями!</div>
+                                </div>
+                                
+                                <div class="column col-2 col-xs-12 float-left preim text-center">
+                                    <img src="http://vr-void.ru/wp-content/uploads/2017/10/hat.png">
+                                    <div class="g text-upeercase text-center">Лучшие VR шлемы HTC VIVE - иди в ногу со временем!</div>
+                                </div>
+                                
+                                <div class="column col-2 col-xs-12 float-left preim text-center">
+                                    <img src="http://vr-void.ru/wp-content/uploads/2017/10/Lokatsia-1.png">
+                                    <div class="g text-upeercase text-center">Расположение в центре москвы</div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='games' class='section-2'>
+            <div class='container'>
+                <h2 class='text-center bold'>Топ игры нашего клубы</h2>
+                <br>
+                <div class="filter">
+                    <input type="radio" id="tag-0" class="filter-tag" name="filter-radio" hidden checked>
+                    <input type="radio" id="tag-1" class="filter-tag" name="filter-radio" hidden>
+                    <input type="radio" id="tag-2" class="filter-tag" name="filter-radio" hidden>
+                    <input type="radio" id="tag-3" class="filter-tag" name="filter-radio" hidden>
+                    <input type="radio" id="tag-4" class="filter-tag" name="filter-radio" hidden>
+                    <input type="radio" id="tag-5" class="filter-tag" name="filter-radio" hidden>
+                    <input type="radio" id="tag-6" class="filter-tag" name="filter-radio" hidden>
+                    <input type="radio" id="tag-7" class="filter-tag" name="filter-radio" hidden>
+                    <input type="radio" id="tag-8" class="filter-tag" name="filter-radio" hidden>
+
+                    <div class="filter-nav">
+                        <label class="chip" for="tag-0">Все игры</label>
+                        <label class="chip" for="tag-1">Игры на четверых</label>
+                        <label class="chip" for="tag-2">Игры на двоих</label>
+                        <label class="chip" for="tag-3">Шутеры</label>
+                        <label class="chip" for="tag-4">Впечатления</label>
+                        <label class="chip" for="tag-5">Симуляторы</label>
+                        <label class="chip" for="tag-6">Выживалка</label>
+                        <label class="chip" for="tag-7">Tower Defence</label>
+                        <label class="chip" for="tag-8">Рисовалка</label>
+                    </div>
+                    <div class="filter-body">
+
+                    
+                <div class="card container filter-item column float-left col-3 col-xs-12" data-tag="tag-1 tag-2 tag-7">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/game1.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">Elven Assasin</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Tower Def</td>
+                                        <td>1-4</td>
+                                        <td>9+</td>
+                                        <td>30-60 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Вы — ассасин, стоящий на защите ворот эльфийского города, который хотят разрушить орки. В одной руке лук, в другой бесконечные стрелы, а за спиной напарник — это должно помочь!
+                    </div>
+                    
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                <div class="card container filter-item column float-left col-3" data-tag="tag-1 tag-2 tag-6">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/arizona-e1509464547853.jpeg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">Arizona Sunshine</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Выживалка</td>
+                                        <td>1-4</td>
+                                        <td>16+</td>
+                                        <td>60-120 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Вам предстоит выживать в зомби-апокалипсисе с видом от первого лица. Всё население штата было заражено вирусом, но главному персонажу удалось уцелеть, хотя счастливчиком его назвать сложно.
+                    </div>
+                    
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                <div class="card container filter-item column float-left col-3" data-tag="tag-1 tag-2 tag-3">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/game3.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">Serious Sam</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Шутер</td>
+                                        <td>1-4</td>
+                                        <td>16+</td>
+                                        <td>30-120 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Шутер от первого лица с традиционными для серии Serious Sam игровым процессом и элементами, такими как большой арсенал вооружения и огромное количество врагов. Арсенал игрока многочислен
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="card container filter-item column float-left col-3" data-tag="tag-2 tag-3">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/raw-data-multiplayer-6-e1509701245132.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">Raw Data</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Шутер</td>
+                                        <td>1-2</td>
+                                        <td>8+</td>
+                                        <td>30-60 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Это аркадный шутер для VR-шлемов и очков, в котором игроки должны украсть ценные данные у транснациональной корпорации, ради которых они сражаются с толпами андроидов, а так же с другими людьми.
+
+
+                    </div>
+                    
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                 <div class="card container filter-item column float-left col-3" data-tag="tag-4">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/the-blu-e1509463320803.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">The blu</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Впечатления</td>
+                                        <td>1</td>
+                                        <td>6+</td>
+                                        <td>10-20 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        The Blu - это путешествие по морскому дну среди кораллов, черепашек и медуз. Красиво, как при реальном занятии дайвингом! И не нужно брать с собой кислородный баллон!
+                    </div>
+                    
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                <div class="card container filter-item column float-left col-3" data-tag="tag-5">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/fancy-skiing-vr.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">Fancy Skiing</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Симулятор</td>
+                                        <td>1</td>
+                                        <td>6+</td>
+                                        <td>10-30 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Крутой спуск на горных лыжах, во время которого приходится перелетать гигантские пропасти, а также уворачиваться от падающих деревьев и северных оленей! Вам понравится
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                <br><br>
+                 <div class="card container filter-item column float-left col-3" data-tag="tag-5">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/job-simulator-e1509463345810.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">Job Simulator</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Симулятор</td>
+                                        <td>1</td>
+                                        <td>6+</td>
+                                        <td>10-30 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Наконец! То, о чём Вы всегда мечтали — симулятор работы! Попробуйте, каково это — работать автомехаником, шеф-поваром или офисным клерком. Своей же работы не хватает, ну.
+                    </div>
+                    
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                <div class="card container filter-item column float-left col-3" data-tag="tag-1 tag-2 tag-3">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/bullet-sorrow-e1509463489688.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">Bullet Sorrow</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Шутер</td>
+                                        <td>1-4</td>
+                                        <td>12+</td>
+                                        <td>30-60 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Bullet Sorrow VR - это аркадный шутер для VR-устройств, где игроки оказываются в шкуре спецагента, обнаружившего себя на секретной базе, откуда он должен выбраться
+                    </div>
+                    
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                <div class="card container filter-item column float-left col-3" data-tag="tag-1 tag-2 tag-3">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/pavlov-e1509463441953.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">Pavlov VR</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Шутер</td>
+                                        <td>1-4</td>
+                                        <td>12+</td>
+                                        <td>30-120 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Командно-тактический шутер напоминающий легендарный Counter Strike! Различные типы оружия, от ножа до снайперской винтовки и реалистичная система стрельбы и перезарядки.
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                <div class="column col-12 text-center">
+                    <button id="showHideContent" class="btn btn-primary but but2">Посмотреть еще <i class="icon icon-caret"></i></button>
+                </div>
+                    <div class="contentt" style="display: none;">
+                    <div class="card container filter-item column float-left col-3" data-tag="tag-8">
+                    <div class="card-image">
+                        <img src="http://vr-void.ru/wp-content/uploads/2017/10/tilt-brush1-e1509463523566.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">Tilt Brush</div>
+                        <div class="card-subtitle text-gray">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Жанр</th>
+                                        <th>Игроков</th>
+                                        <th>Возраст</th>
+                                        <th>Сеанс</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="active">
+                                        <td>Рисовалка</td>
+                                        <td>1</td>
+                                        <td>6+</td>
+                                        <td>30 мин</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Tilt Brush позволяет рисовать в 3D-пространстве, используя технологию виртуальной реальности. Дайте волю своей творческой фантазии с трехмерными мазками, звездами, светом и даже огнем. Ваша комната является вашим холстом. Вашей палитрой – ваше воображение. Возможности безграничны!
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary md-trigger" data-modal="modal-1">Записаться на игру</button>
+                    </div>
+                </div>
+                </div>
+
+                </div>
+                </div>
+            </div>
+            <div class='text-center more'>
+                <h2 class='text-center bold'>У нас в арсенале более 70 игр</h2>
+                <button class="btn btn-primary but but2">Посмотреть каталог всех игр</button>
+                <div class='pol'>
+                    <div class="parallax">
+                        <div class="parallax-top-left" tabindex="1"></div>
+                        <div class="parallax-top-right" tabindex="2"></div>
+                        <div class="parallax-bottom-left" tabindex="3"></div>
+                        <div class="parallax-bottom-right" tabindex="4"></div>
+                        <div class="parallax-content">
+                            
+                            <div class="parallax-back">
+                                <img src="img/pol.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class='section-3' id='reviews'>
+            <div class="container">
+                <h2 class='text-center bold'>Отзывы</h2>
+                <div class="otzivi">
+                    <div class="column col-6 col-xs-12 float-left">
+                        <div class="">
+                            <div class="round">
+                                <img src="http://vr-void.ru/wp-content/uploads/2017/10/1-e1509447860959.jpg">
+                            </div>
+                            <div class="descr">
+                                <div class="name bold g">Макс Выморков</div>
+                                <div class="kr_descr">Меня чуть не убила стая орков, потом убила, потом я их убил, драконы ещё эти. В общем был бы ещё звук помощнее я бы пищал от восторга как в 2007, играя на плойке. Организаторы крутые)</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="column col-6 col-xs-12 float-left">
+                        <div class="">
+                            <div class="round">
+                                <img src="http://vr-void.ru/wp-content/uploads/2017/10/2-e1509448177526.jpg">
+                            </div>
+                            <div class="descr">
+                                <div class="name bold g">Вячеслав Кузьмин</div>
+                                <div class="kr_descr">Это -очень круто, весь вечер с женой обсуждаем тактику,как убивать зомби.впечатлений море, играли первый раз, на завтра записались еще.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="column col-6 col-xs-12 float-left">
+                        <div class="">
+                            <div class="round">
+                                <img src="http://vr-void.ru/wp-content/uploads/2017/10/3.jpg">
+                            </div>
+                            <div class="descr">
+                                <div class="name bold g">Паша Маршацкий</div>
+                                <div class="kr_descr">Ни когда не любил играть в игры, особо не затягивало, но эта штука просто огонь) мне безумно понравилось) не ожидал что будет столько эмоций!! через неделю ждите в гости</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="column col-6 col-xs-12 float-left">
+                        <div class="">
+                            <div class="round">
+                                <img src="http://vr-void.ru/wp-content/uploads/2017/10/4-e1509540579417.jpg">
+                            </div>
+                            <div class="descr">
+                                <div class="name bold g">Елена Лобанова</div>
+                                <div class="kr_descr">Приводила детей 12 и 9 лет. Они были в полном восторге. Идем еще! Играли 2 часа на ногах, но довольны были как слоны)) Отдельное спасибо администратору клуба за видеосъемку маленьких игроков)</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="buttons text-center">
+                    <a href="https://vk.com/topic-144230513_35688138" class="btn btn-primary but2" target="_blank">Больше отзывов</a> <br>
+                </div>
+            </div>
+        </div>
+        <div class='section-4'>
+            <div class='container'>
+                <h2 class="bold text-center">Посмотрите как у нас круто!</h2>
+                <div class='small text-center reg white'>Это круче чем любые компьютерные игры!</div>
+                <div class='video column col-7 col-md-12 col-xs-12 float-left'>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/z4BZezXaim4" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+                <div class='form column col-5 col-md-12 col-xs-12 float-left'>
+                    <div class='vr'><img src="http://vr-void.ru/wp-content/themes/vr/img/vr.png" alt=""></div>
+                    <form action="">
+                        <h2>Запишитесь на игру ведь</h2>
+                        <h5 class='text-center white g'>Первая игра бесплатно!</h5>
+                        
+                        <input type="text" placeholder="Имя">
+                        <input type="text" placeholder="+7(___)___-__-__">
+                        <button class="btn btn-primary but2" target="_blank">Записаться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id='price' class='section-5'>
+            <div class='container'>
+                <h2 class='bold'>Цены</h2>
+                <div class='small text-center med'>Выбери свой тариф и играй в свое удовольствие</div>
+                <br><br>
+                <div class="calc">
+                    <div class='column col-3 float-left pakage pakage3 text-center'>
+                        <h2 class="text-upeercase bold g">silver</h2>
+                        <img src="img/60min.png" alt="" width="40%">
+                        <br>
+                        <br>
+                        <img src="img/two.png" alt="" width="30%">
+                        <div class='g bold'>1 - 2 человека</div>
+                        <br><br>
+                        <div class="g bold">Бесплатное погружение</div>
+                        <div class="g bold h3">3 любых игры</div>
+                        <button class="but1">Подробнее</button>
+                    </div>
+                    <div class='column col-3 float-left pakage2 text-center'>
+                        <h2 class="text-upeercase bold gold">GOLD</h2>
+                        <img src="img/60min2.png" alt="" width="45%">
+                        <br>
+                        <br>
+                        <img src="img/four.png" alt="" width="60%">
+                        <div class='gold bold'>3 - 4 человека</div>
+                        <br>
+                        <div class="gold bold">Бесплатное погружение</div>
+                        <div class="gold bold h3">5 любых игр</div>
+                        <br>
+                        <div class="gold bold h3">Участие в турнирах</div>
+                        <br>
+                        <div class='bold h6 gold bold'>Возможность выйграть <br> дополнительное время и ценные призы</div>
+                        <button class="but3">Подробнее</button>
+                    </div>
+                    <div class='column col-3 float-left pakage text-center'>
+                        <h2 class="text-upeercase bold plat">PLATINUM</h2>
+                        <img src="img/2hours.png" alt="" width="40%">
+                        <br>
+                        <br>
+                        <img src="img/plat.png" alt="" width="80%">
+                        <div class='plat bold'>Любое количество игроков</div>
+                        <br>
+                        <div class="plat bold h5">Мы выезжаем с установкам VR на ваше мероприятие</div>
+                        <br>
+                        <div class='bold h6 plat bold'>Дополнительное время и колчество игровых установок обсуждается индивидуально</div>
+                        <button class="but4">Подробнее</button>
+                    </div>
+                </div>
+                <!--
+                <div class="calc">
+                    <div class="row wow fadeInUp  animated animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+                        <div class="column col-6 float-left">
+                            <div class="calc-block1">
+                                <div class="calc-title">Количество человек</div>
+                                <div class="calc-content">
+                                    <div class="calc-points justify-wrap docs-slider">
+                                        <div id="sl_2" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"><div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;"></span><div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style="width: 0%;"></div></div>
+                                        <div class="calc-point active" data-numb="1">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">1</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="2">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">2</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="3">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">3</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="4">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">4</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column col-6 float-left">
+                            <div class="calc-block2">
+                                <div class="calc-title">Количество минут</div>
+                                <div class="calc-content">
+                                    <div class="calc-points justify-wrap sotr-slider">
+                                        <div id="sl_1" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content ui-draggable ui-draggable-handle"><div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;"></span><div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style="width: 0%;"></div></div>
+                                        <div class="calc-point active" data-numb="1">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">30</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="2">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">60</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="3">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">90</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="4">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">120</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="5">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">150</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="6">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">180</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="7">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">210</div>
+                                        </div>
+                                        <div class="calc-point" data-numb="8">
+                                            <div class="calc-point-circle"></div>
+                                            <div class="calc-point-value">240</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row wow zoomIn  animated animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: zoomIn;">
+                        <div class="col-md-6">
+                            <p>Общая сумма</p>
+                            <p class="rub-text"><i class="result-span">590</i> <span class="underline">Р</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>АКЦИЯ!  Ночной сеанс игры с 23:00 до 6:00 стоит всего 2500 рублей с человека! Только по предварительной записи.</p>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+        <div id='contact' class='section-6'>
+            <div class='container'>
+            </div>
+            <div class='map'>
+                <div class='inner-map'>
+                    <div class="flex3">
+                        
+                        <div class="how text-left">
+                            <h3 class="g bold">Как пройти:</h3>
+                            <p class="bold">Ст. м Смоленская (синяя), проходим МИД.
+                                Перед следующим зданием слева вывеска
+                                «АВТОЛОМБАРД 38» — спускаемся вниз и
+                            проходим через автомойку.</p>
+                        </div>
+                        <div class="bold g"><i class="icon icon-location"></i> Москва, Смоленская  -Сенная пл., 30с4</div>
+                        <br>
+                        <div class="icons">
+                            <div class="bold white">
+                            <img src="img/iconmonstr-phone-1-16.png"> +7-495-924-50-90                       </div>
+                            <br>
+                        </div>
+                        
+                        <br>
+                    </div>
+                </div>
+                <iframe src="https://snazzymaps.com/embed/33412" width="100%" height="600px" style="border:none;"></iframe>
+            </div>
+            
+        </div>
+        <div class='footer'>
+            <div class='container'>
+                <div class='d-flex align-center'>
+                    <div>
+                        <div class='logo'><img src="img/logo2.png" alt=""></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    <div class="white bold">Клуб виртуальной реальности VOID
+                        <div class="divider"></div>
+                        <div>
+                            
+                            <div class="bold g"><i class="icon icon-location"></i>  г. Москва, Смоленская-Сенная пл., 30с4</div>
+                            <div class="bold small2 white">
+                                <img src="img/iconmonstr-phone-1-16.png"> +7-495-924-50-90
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex">
+                        <ul class="menu">
+                            <li class="menu-item"><a href="#">Игры</a></li>
+                            <li class="menu-item"><a href="#">Цены</a></li>
+                            <li class="menu-item"><a href="#">Отзывы</a></li>
+                            <li class="menu-item"><a href="#">О нас</a></li>
+                            <li class="menu-item"><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    
+                    <a class="btn btn-link button md-trigger" data-modal="modal-1">Записаться на игру</a> <br>
+                    
+                </div>
+                <div class='divider m'></div>
+                <div class='d-flex align-center'>
+                    <h5>© vr-void.ru 2017</h5>
+                    
+                    <a href="" class="white">Политика конфиденциальности</a>
+                    <a href="" class="white">Согласие на обработку персональных данных</a>
+                    <div class="logos">
+                        <a href="https://www.instagram.com/vr_void/" target="_blank"><img src="https://nedvizhimost.rostur360.ru/wp-content/themes/tour/img/iconmonstr-instagram-7-32.png" alt=""></a>
+                        <a href="https://www.facebook.com/profile.php?id=100014205485571" target="_blank"><img src="https://nedvizhimost.rostur360.ru/wp-content/themes/tour/img/iconmonstr-facebook-2-32.png" alt=""></a>
+                        <a href="https://vk.com/vr_void" target="_blank"><img src="https://nedvizhimost.rostur360.ru/wp-content/themes/tour/img/iconmonstr-vk-2-32.png" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UCsnj42XnlNxAA6SuS2MxQ-A" target="_blank"><img src="https://nedvizhimost.rostur360.ru/wp-content/themes/tour/img/iconmonstr-youtube-2-32.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="md-overlay"></div>
+        
+        
+        <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+        <script src="js/classie.js"></script>
+        <script src="js/modalEffects.js"></script>
+        <!-- for the blur effect -->
+        <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+        <script>
+        // this is important for IEs
+        var polyfilter_scriptpath = '/js/';
+        </script>
+        <script src="js/cssParser.js"></script>
+        <script src="js/css-filters-polyfill.js"></script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+        $(window).scroll(function() {
+        if ($(this).scrollTop() > 1){
+        $('header').addClass("sticky");
+        }
+        else{
+        $('header').removeClass("sticky");
+        }
+        });
+        </script>
+        <script>
+        $(document).ready(function(){
+        $('a[href^="#"], *[data-href^="#"]').on('click', function(e){
+        e.preventDefault();
+        var t = 1000;
+        var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
+        $('html,body').stop().animate({ scrollTop: $(d).offset().top -40}, t);
+        });
+        });
+        </script>
+        <script>
+                    $(document).ready(function(){
+                    $("#showHideContent").click(function () {
+                    if ($(".contentt").is(":hidden")) {
+                    $("#showHideContent").hide("fast");
+                    $(".contentt").slideDown("fast");
+                    } else {
+                    $(".contentt").hide("fast");
+                    }
+                    return false;
+                    });
+                    });
+                    </script>
+
+                     <script>
+                    $(document).ready(function(){
+
+
+
+                    $(".showmenu").click(function () {
+                    if ($(".showed").is(":hidden")) {
+                    $(".showed").slideDown("fast");
+                    } else {
+                    $(".showed").hide("fast");
+                    }
+                    return false;
+                    });
+                    });
+                    $(".showed a").click(function () {
+                        $(".showed").hide("fast");
+                    });
+                    </script>
+    </body>
+
+</html>
