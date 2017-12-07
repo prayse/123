@@ -1145,6 +1145,10 @@ margin: 10px 0;
 }
 
 
+@media (max-width: 992px) {
+
+}
+
 @media (max-width: 768px) {
     .main {
     width: 100%;
@@ -1523,5 +1527,4 @@ h1 {
    
 }
 
-.form {}
 }
